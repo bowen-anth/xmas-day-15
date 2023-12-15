@@ -44,8 +44,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--blue);
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 
@@ -55,7 +55,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--red);
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bullseye {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--yellow);
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
