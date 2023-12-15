@@ -11,12 +11,6 @@
     box-sizing: border-box;
 }
 
-/* Match the example */
-/* Center on the page */
-/* No need to make responsive */
-
-/* These are four circles layered on top of one another, and each circle is centered within a larger circle */
-
 .rings {
     position: absolute;
     top: 50%;
@@ -24,7 +18,6 @@
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    overflow: visible;
 }
 
 .ring-1 {
