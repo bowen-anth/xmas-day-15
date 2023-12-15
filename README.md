@@ -1,1 +1,1 @@
-# xmas-day-15
+# Scrimba - JavaScriptmas - Day 15: Archery Target

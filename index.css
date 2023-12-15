@@ -1,0 +1,61 @@
+:root {
+    --black: #282828; 
+    --blue: #2892f9; 
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Match the example */
+/* Center on the page */
+/* No need to make responsive */
+
+/* These are four circles layered on top of one another, and each circle is centered within a larger circle */
+
+.rings {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.ring-1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--black);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.ring-2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--blue);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.ring-3 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--red);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
